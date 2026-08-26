@@ -105,3 +105,24 @@ footer{background:var(--ink);color:#66616e;display:flex;justify-content:space-be
   font-size: 14px;
   opacity: 0.75;
 }
+@media (max-width: 700px) {
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .cert-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .cert-card img {
+    height: 180px;
+  }
+
+  .cert-card h3 {
+    font-size: 24px;
+  }
+
+
