@@ -52,3 +52,10 @@ footer{background:var(--ink);color:#66616e;display:flex;justify-content:space-be
   object-fit: contain;
   object-position: center;
 }
+.note-paper img {
+  width: 140px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  object-fit: contain;
+}
